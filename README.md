@@ -98,3 +98,8 @@
        * [Unbound](https://nlnetlabs.nl/projects/unbound/about).
        * [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby).
        * [m13253's DoH](https://github.com/m13253/dns-over-https).
+
+
+
+# Contributors
+  * [Blaumaus](https://github.com/Blaumaus), for providing the initial working website.
