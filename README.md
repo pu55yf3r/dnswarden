@@ -73,7 +73,7 @@
 * ## Privacy policy and T&C
   * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
   * No query logging . Completely disabled query logs related to the DNS traffic.
-
+  * Dns traffic will be forwarded to either [dns.watch](https://dns.watch) or datacenter dns if any one of the backend resolver fails. 
 
 
 
