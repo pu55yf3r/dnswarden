@@ -1,3 +1,8 @@
+## Notice
+
+Maintenance time. Going to update frontend and backend systems to accommodate adult-filter dns on November 14th and 15th. Shouldn't affect the normal usage but the query resolution will be handled by data center's dns servers. 
+
+
 # dnswarden
 ### Just a normal privacy oriented dns service with a ability to block ads , trackers and also provides uncensored dns! Servers are hosted in Germany
 
