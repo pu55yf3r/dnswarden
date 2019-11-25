@@ -1,5 +1,7 @@
 # Notice
 
+## Implemented blocking of 1st party trackers which uses CNAME's, more [information](https://github.com/uBlockOrigin/uBlock-issues/issues/780) can be found here about them. This is only applicable to Adblocking and Adult-Filter dns.
+
 #### Implemented adult-filter dns. Added another layer of cache, so it should be easier on backend resolver.
 
 # dnswarden
