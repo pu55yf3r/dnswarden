@@ -20,7 +20,7 @@
     * Supports DNSCrypt , DNS over HTTPS , DNS over TLS and Normal DNS (plaintext/cleartext).
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
-    * EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)) is disabled.
+    * EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)) is disabled by default. Only supports [ECS](https://tools.ietf.org/html/rfc7871) depending upon the subdomain/path choice.
     * No query logging .
     * If your favourite website gets blocked/broken , **[report here!](https://github.com/dnswarden/blocklist)**    
     
@@ -34,10 +34,12 @@
       *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **53***)
   
   * ### DNS-over-TLS
-     *  adblock-dot.dnswarden.com ( Supports both port **853** and **443**)
+     *  adblock-dot.dnswarden.com ( Supports only port **853**)
+     *  ecs-adblock-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adblock
+    *  https://doh.dnswarden.com/adblock-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
       * IPv4
@@ -58,10 +60,12 @@
       *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **5353***)
   
   * ### DNS-over-TLS
-     *  uncensored-dot.dnswarden.com ( Supports both port **853** and **443**)
+     *  uncensored-dot.dnswarden.com ( Supports only port **853**)
+     *  ecs-uncensored-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/uncensored
+    *  https://doh.dnswarden.com/uncensored-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
 
@@ -85,10 +89,12 @@
       *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **2053***)
   
   * ### DNS-over-TLS
-     *  adult-filter-dot.dnswarden.com ( Supports both port **853** and **443**)
+     *  adult-filter-dot.dnswarden.com ( Supports only port **853**)
+     *  ecs-adult-filter-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adult-filter
+    *  https://doh.dnswarden.com/adult-filter-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
       * IPv4
