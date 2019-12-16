@@ -2,7 +2,6 @@
 
 ## Implemented blocking of 1st party trackers which uses CNAME's, more [information](https://github.com/uBlockOrigin/uBlock-issues/issues/780) can be found here about them. This is only applicable to Adblocking and Adult-Filter dns.
 
-#### Implemented adult-filter dns. Added another layer of cache, so it should be easier on backend resolver.
 
 # dnswarden
 ### Just a normal privacy oriented dns service with a ability to block ads , trackers and also provides uncensored dns! Servers are hosted in Germany
@@ -17,7 +16,7 @@
   * **Adult Filter dns** ( Blocks adult content, enforces force safe search for search engines and youtube. Also blocks ads,trackers and other malicious stuff)
   
 
-    * Supports DNSCrypt , DNS over HTTPS , DNS over TLS and Normal DNS (plaintext/cleartext).
+    * Supports DNSCrypt , DNS over HTTPS and DNS over TLS.
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
     * EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)) is disabled by default. Only supports [ECS](https://tools.ietf.org/html/rfc7871) depending upon the subdomain/path choice.
@@ -27,11 +26,8 @@
     
  # Server information
  
-* ## Adblocking DNS (DoT, DoH, DnsCryptV2, Normal DNS)
+* ## Adblocking DNS (DoT, DoH, DnsCryptV2)
   
-    * ### Normal DNS
-      *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **53***)
-      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **53***)
   
   * ### DNS-over-TLS
      *  adblock-dot.dnswarden.com ( Supports only port **853**)
@@ -53,11 +49,8 @@
          * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjQ0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s
        
        
-* ## Uncensored DNS (DoT, DoH, DnsCryptV2, Normal DNS)
+* ## Uncensored DNS (DoT, DoH, DnsCryptV2)
   
-    * ### Normal DNS
-      *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **5353***)
-      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **5353***)
   
   * ### DNS-over-TLS
      *  uncensored-dot.dnswarden.com ( Supports only port **853**)
@@ -82,11 +75,8 @@
        
        
        
-* ## Adult Filter DNS (DoT, DoH, DnsCryptV2, Normal DNS)
+* ## Adult Filter DNS (DoT, DoH, DnsCryptV2)
   
-    * ### Normal DNS
-      *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **2053***)
-      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **2053***)
   
   * ### DNS-over-TLS
      *  adult-filter-dot.dnswarden.com ( Supports only port **853**)
@@ -112,7 +102,7 @@
 * ## Privacy policy and T&C
   * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
   * No query logging . Completely disabled query logs related to the DNS traffic.
-  * Dns traffic will be forwarded to either [dns.watch](https://dns.watch) or datacenter dns if any one of the backend resolver fails. 
+  * Dns traffic will be forwarded to either [dns.watch](https://dns.watch) or datacenter's dns servers if any one of the backend resolver fails. 
 
 
 
@@ -132,10 +122,10 @@
 * ### Client software
 
     * Android
+      * [Dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy), Supports dnscrypt and DoH. Also supports other os's.
       * [Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation), Supports both DoT and DoH.
       * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT , DoH and normal DNS.
       * [Intra](https://play.google.com/store/apps/details?id=app.intra), Supports only DoH.
-      * [Dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy), Supports dnscrypt and DoH.
       * By using Android Pie , Go to Setting -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.
       
      
