@@ -33,7 +33,6 @@
   
   * ### DNS-over-TLS
      *  adblock-dot.dnswarden.com ( Supports only port **853**)
-     *  ecs-adblock-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adblock
@@ -56,7 +55,6 @@
   
   * ### DNS-over-TLS
      *  uncensored-dot.dnswarden.com ( Supports only port **853**)
-     *  ecs-uncensored-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/uncensored
@@ -82,7 +80,6 @@
   
   * ### DNS-over-TLS
      *  adult-filter-dot.dnswarden.com ( Supports only port **853**)
-     *  ecs-adult-filter-dot.dnswarden.com (With [ECS](https://tools.ietf.org/html/rfc7871), only on port **853**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adult-filter
