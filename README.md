@@ -1,6 +1,6 @@
 # Notice
 
-# Maintaence update, IP addresses will change. Dnscrypt stamps will definetly change. Sorry for the inconvenience.
+
 
 ## Implemented blocking of 1st party trackers which uses CNAME's, more [information](https://github.com/uBlockOrigin/uBlock-issues/issues/780) can be found here about them. This is only applicable to Adblocking and Adult-Filter dns.
 
@@ -32,11 +32,11 @@
   
   
   * ### DNS-over-TLS
-     *  adblock-dot.dnswarden.com ( Supports only port **853**)
+     *  adblock-dot.dnswarden.com ( Supports both port **853** and **443**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adblock
-    *  https://doh.dnswarden.com/adblock-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
+    *  https://ecs-doh.dnswarden.com/adblock-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
       * IPv4
@@ -54,11 +54,11 @@
   
   
   * ### DNS-over-TLS
-     *  uncensored-dot.dnswarden.com ( Supports only port **853**)
+     *  uncensored-dot.dnswarden.com ( Supports both port **853** and **443**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/uncensored
-    *  https://doh.dnswarden.com/uncensored-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
+    *  https://ecs-doh.dnswarden.com/uncensored-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
 
@@ -79,11 +79,11 @@
   
   
   * ### DNS-over-TLS
-     *  adult-filter-dot.dnswarden.com ( Supports only port **853**)
+     *  adult-filter-dot.dnswarden.com ( Supports both port **853** and **443**)
   
   * ### DNS-over-HTTPS: 
     *  https://doh.dnswarden.com/adult-filter
-    *  https://doh.dnswarden.com/adult-filter-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
+    *  https://ecs-doh.dnswarden.com/adult-filter-ecs (With [ECS](https://tools.ietf.org/html/rfc7871))
     
   * ### DnsCryptV2
       * IPv4
