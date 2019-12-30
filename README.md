@@ -53,6 +53,22 @@
          
          * sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06NDQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2yMyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWRibG9jaw
          
+         
+      * IPv4 with ecs enabled.
+        * sdns://AQMAAAAAAAAAFDExNi4yMDMuNzAuMTU2OjE1MzUzIHpyo1Xh_i1OzqbMqtZYymc9eHx7J4DivDjnkPnEdpgLJzIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMS1hZGJsb2NrLWVjcw
+        
+        * sdns://AQMAAAAAAAAAFDExNi4yMDMuMzUuMjU1OjE1MzUzIPiJU0xRYDLlJ7ZzVe_Ajs24STffzhDlVjYB4XYOATV8JzIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMi1hZGJsb2NrLWVjcw
+        
+        * sdns://AQMAAAAAAAAAEjg4LjE5OC4xNjEuODoxNTM1MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2ycyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWRibG9jay1lY3M
+        
+       * IPv6 with ecs enabled.
+         * sdns://AQMAAAAAAAAAHVsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjE1MzUzIHpyo1Xh_i1OzqbMqtZYymc9eHx7J4DivDjnkPnEdpgLJzIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMS1hZGJsb2NrLWVjcw
+         
+         * sdns://AQMAAAAAAAAAHVsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjE1MzUzIPiJU0xRYDLlJ7ZzVe_Ajs24STffzhDlVjYB4XYOATV8JzIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMi1hZGJsb2NrLWVjcw
+         
+         * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODpjMGM6NjJhNzo6MV06MTUzNTMgFz97ePoBtoehwkeolXN-lnvGLam4Cbq0vnFlNGsxM9snMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0zLWFkYmxvY2stZWNz
+
+
    * ### Clear text dns
       
         * IPv4
@@ -89,7 +105,25 @@
          * sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjg0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y
          
          * sdns://AQcAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06ODQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2yQyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtdW5jZW5zb3I
-       
+
+
+      * IPv4 with ecs enabled.
+        * sdns://AQcAAAAAAAAAEzExNi4yMDMuNzAuMTU2OjQzNDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29yLWVjcw
+        
+        * sdns://AQcAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjQzNDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29yLWVjcw
+        
+        * sdns://AQcAAAAAAAAAETg4LjE5OC4xNjEuODo0MzQzIBc_e3j6AbaHocJHqJVzfpZ7xi2puAm6tL5xZTRrMTPbKDIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMy11bmNlbnNvci1lY3M
+        
+        
+       * IPv6 with ecs enabled.
+         * sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjQzNDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29yLWVjcw
+         
+         * sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjQzNDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29yLWVjcw
+         
+         * sdns://AQcAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06NDM0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2ygyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtdW5jZW5zb3ItZWNz
+
+
+
    * ### Clear text dns
       
         * IPv4
@@ -126,6 +160,20 @@
          
          * sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06MTQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2ygyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWR1bHQtZmlsdGVy
        
+
+      * IPv4 with ecs enabled.
+        * sdns://AQMAAAAAAAAAEzExNi4yMDMuNzAuMTU2OjU0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAssMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkdWx0LWZpbHRlci1lY3M
+        
+        * sdns://AQMAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjU0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwsMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkdWx0LWZpbHRlci1lY3M
+        
+        * sdns://AQMAAAAAAAAAETg4LjE5OC4xNjEuODo1NDQzIBc_e3j6AbaHocJHqJVzfpZ7xi2puAm6tL5xZTRrMTPbLDIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMy1hZHVsdC1maWx0ZXItZWNz
+        
+       * IPv6 with ecs enabled.
+         * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjU0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAssMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkdWx0LWZpbHRlci1lY3M
+         * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjU0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwsMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkdWx0LWZpbHRlci1lY3M
+         
+         * sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06NTQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2ywyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWR1bHQtZmlsdGVyLWVjcw
+
 
    * ### Clear text dns
       
