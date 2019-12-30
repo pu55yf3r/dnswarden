@@ -44,11 +44,24 @@
         
         * sdns://AQMAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjQ0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s
         
+        * sdns://AQMAAAAAAAAAETg4LjE5OC4xNjEuODo0NDQzIBc_e3j6AbaHocJHqJVzfpZ7xi2puAm6tL5xZTRrMTPbIzIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMy1hZGJsb2Nr
+        
        * IPv6
          * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjQ0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkYmxvY2s
          
          * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjQ0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s
+         
+         * sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06NDQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2yMyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWRibG9jaw
+         
+   * ### Clear text dns
+      
+        * IPv4
+          
+          * 116.203.70.156
        
+        * IPv6
+          
+          * 2a01:4f8:1c1c:75b4::1
        
 * ## Uncensored DNS (DoT, DoH, DnsCryptV2)
   
@@ -67,12 +80,25 @@
         
         * sdns://AQcAAAAAAAAAEzExNi4yMDMuMzUuMjU1Ojg0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y
         
+        * sdns://AQcAAAAAAAAAETg4LjE5OC4xNjEuODo4NDQzIBc_e3j6AbaHocJHqJVzfpZ7xi2puAm6tL5xZTRrMTPbJDIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMy11bmNlbnNvcg
+        
         
        * IPv6
          * sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjg0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAskMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29y
          
          * sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjg0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y
+         
+         * sdns://AQcAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06ODQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2yQyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtdW5jZW5zb3I
        
+   * ### Clear text dns
+      
+        * IPv4
+          
+          * 116.203.35.255
+       
+        * IPv6
+          
+          * 2a01:4f8:1c1c:5e77::1
        
        
 * ## Adult Filter DNS (DoT, DoH, DnsCryptV2)
@@ -91,12 +117,26 @@
         
         * sdns://AQMAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjE0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkdWx0LWZpbHRlcg
         
+        * sdns://AQMAAAAAAAAAETg4LjE5OC4xNjEuODoxNDQzIBc_e3j6AbaHocJHqJVzfpZ7xi2puAm6tL5xZTRrMTPbKDIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tMy1hZHVsdC1maWx0ZXI
+        
        * IPv6
          * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjE0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkdWx0LWZpbHRlcg
          
          * sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjE0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwoMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkdWx0LWZpbHRlcg
+         
+         * sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMGM6NjJhNzo6MV06MTQ0MyAXP3t4-gG2h6HCR6iVc36We8YtqbgJurS-cWU0azEz2ygyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLTMtYWR1bHQtZmlsdGVy
        
+
+   * ### Clear text dns
+      
+        * IPv4
+          
+          * 88.198.161.8
        
+        * IPv6
+          
+          * 2a01:4f8:c0c:62a7::1
+
        
 * ## Privacy policy and T&C
   * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
